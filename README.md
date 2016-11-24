@@ -1,0 +1,1 @@
+An Aether II Rewrite addon that adds ideas brought forth by the Gilded Games community.
