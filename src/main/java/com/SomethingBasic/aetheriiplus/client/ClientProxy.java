@@ -7,18 +7,27 @@ import com.SomethingBasic.aetheriiplus.common.CommonProxy;
  */
 public class ClientProxy extends CommonProxy
 {
+    /**
+     * @see CommonProxy.java
+     */
     @Override
     public void preInit()
     {
     	
     }
     
+    /**
+     * @see CommonProxy.java
+     */
     @Override
     public void init()
     {
-    	
+
     }
     
+    /**
+     * @see CommonProxy.java
+     */
     @Override
     public void postInit()
     {

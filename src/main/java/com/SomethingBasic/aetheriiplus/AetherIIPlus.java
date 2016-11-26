@@ -20,10 +20,6 @@ public class AetherIIPlus
 	public static AetherIIPlus INSTANCE;
 	
 	@SidedProxy(clientSide = "com.SomethingBasic.aetheriiplus.client.ClientProxy", serverSide = "com.SomethingBasic.aetheriiplus.common.CommonProxy")
-	/**
-	 * Calls register() in ClientProxy.
-	 * Magic.
-	 */
 	public static CommonProxy proxy;
 	
 	/**Don't touch this unless you feel like changing the name, version or modid. I think that defeats the purpose of this message though.**/
