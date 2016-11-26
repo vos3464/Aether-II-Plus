@@ -5,7 +5,6 @@
 .classpath
 .project
 .settings
-.metadata
 *.launch
 
 # IntelliJ IDEA
@@ -35,6 +34,3 @@ Desktop.ini
 # JVM crash logs
 hs_err_pid*.log
 replay_pid*.log
-
-# other
-eclipse
