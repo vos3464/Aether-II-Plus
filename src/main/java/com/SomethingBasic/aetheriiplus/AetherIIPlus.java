@@ -16,7 +16,7 @@ import com.SomethingBasic.aetheriiplus.common.CommonProxy;
 @Mod(name = AetherIIPlus.NAME, version = AetherIIPlus.VERSION, modid = AetherIIPlus.MODID)
 public class AetherIIPlus 
 {
-	@Instance("aetheriiplus")
+	@Instance(AetherIIPlus.MODID)
 	public static AetherIIPlus INSTANCE;
 	
 	@SidedProxy(clientSide = "com.SomethingBasic.aetheriiplus.client.ClientProxy", serverSide = "com.SomethingBasic.aetheriiplus.common.CommonProxy")
