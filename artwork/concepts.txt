@@ -1,0 +1,237 @@
+Writing and Written Scroll - Like Vanilla Written Books
+	Recipe: M = Moa Feather, P = Papyrus Scroll, B = Blueberries, X = Nothing
+	XXX
+	MPB
+	XXX
+
+Paper Scroll - Used in Scroll Crafting
+	Recipe: P= Paper
+	XXX
+	XPP
+	XXX
+	(Skyroot and Shears in Crafting Table = 3 Paper) (takes shear durability)
+	
+Throwing Knifes - Long ranged weapons, hold down to aim better. One more damage than sword.
+	Skyroot = 5 Damage
+	Holystone = 6 Damage
+	Zanite = 7 Damage
+	Arkenium = 9 Damage, but heavier and doesn't throw far
+	Gravitite = 8 Damage, but lighter and throws far
+
+	Recipe: O = Ore Material, S = Stick Material
+	XXX
+	XOX
+	XSX
+
+Kunai Types - Knives, but with special effects
+	Lightning = 7 Damage, summons lightning
+	Flaming = 7 Damage, fire effect
+	Vampire = 7 Damage, steals life
+
+	Dungeon Loot/Irradiated Item Loot
+
+Valkyrie Knife - Very long ranged throwing knife
+	Damage = 7
+
+	Dungeon Loot/Irradiated Item Loot
+
+Christmas Tree Sword - High damage, slow drawback, low durability, drops random item, but when that happens it eats durability		Damage = 7
+	DPS = Skyroot Sword
+	Durability = Low
+
+	Dungeon Loot/Irradaited Item Loot
+
+TNT Sword - Summons primed tnt
+	Damage = 6
+
+	Dungeon Loot/Irradiated Item Loot
+
+Rainbow Aercloud - It does a random aercloud effect.
+	Recipe: B = Blue, G = Green, P = Purple, Y = Gold
+	XXX
+	XBG
+	XPY
+	(Interchangable/Can be put in any spot, just still in square)
+
+Candy Cane Stuff - Drops candy canes as side drops
+	Sword: Damage = 5 Damage (the green one, red already implemented)
+	Crossbow: Cooldown = 1 Second
+
+	Dungeon Loot/Iradiated Item Loot
+
+Cubed Holystone - Aesthetic Block
+	Recipe = Holystone Brick inside Masonry Bench
+
+Cracked and Mossy Faded and Regular Holystone Bricks - Aesthetic Block
+	Recipe = Holystone or Faded Holystone Brick inside Masonry Bench
+
+Hammer of Arkenzus - Shoots hammer heads
+	Damage = 7
+
+	Dungeon Loot/Irradiated Item Loot
+
+Gruegar Blade - Does damage, is slow, also does frost damage
+	Damage= 8
+	Frost Damage= +2
+
+	Dungeon Loot/Irradiated Item Loot
+
+Valkyrie Longsword - Less damage, longer range than a normal Valkyrie Sword
+	Damage = 5
+
+	Dungeon Loot/Irradiated Item Loot
+
+
+Sentry Sword - Does damage, is fast
+	Damage = 6
+
+	Dungeon Loot/Irradiated Item Loot
+
+Green Candy Cane - Candy Cane, but green. (Comes from green candy cane tools) Fills same hunger amount as red candy canes
+
+Rune Of Expansion = Makes Crafting Gui in inventory 3x3
+	Artifact
+	Mythic
+	Dungeon Loot/Irradiated Item Loot
+
+Aercloud Darts & Aercloud Dart Shooter - Aercloud tipped darts do aercloud effects, dart sooter shoots them
+	Green Aercloud Dart = Shoots enemy in random direction across x and z coordinates.
+	Purple Aercloud Dart = Shoots enemy away from you
+	Blue Aercloud Dart = Launches enemy in the air
+	Gold Aercloud Dart = Pulls enemy to the ground (Useful in elytra pvp, or zephyr and tempest fighting)
+	Storm Aercloud Dart = Slows mob down
+	Rainbow Aercloud Dart = Shoots enemy in random direction across x, y, and x coordinates.
+
+	Recipe for Dart: A= Aercloud, G= Golden Dart
+	XAX
+	AGA
+	XAX
+
+	Recipe for Dart Shooter: C= Cold Aercloud, D= Golden Dart Shooter
+	XCX
+	XDX
+	XXX
+
+Storm Aercloud Parachute: Slow Directional Descent
+	Recipe: S= String, A= Storm Aercloud
+	AAA
+	XSX
+	XXX
+
+Enchanted Blueberry Lollipop: As the name says
+	Recipe: Blueberry Lollipop + 5 Ambrosium on Altar
+	Hunger Filled: 8
+
+Bone Tools: strength of holystone, has a chance when about to break to regen its durability
+	Crafting recipe of tools, but with bones
+	(Bones should drop from aether mobs)
+
+Cockatrice Feathered Bolt: A long ranged bolt type
+	Damage = 4
+
+	Recipe: C= Cockatrice Feather, B= Bone, S= Stick
+	BXX
+	XSX
+	XXC
+
+Ambrosium Bolt: Lights mobs up/lights blocks up/stuns mobs
+	Damage = 3
+
+	Recipe: F= Feather, A= Ambrosium, S= Stick
+	AXX
+	XSX
+	XXF
+
+Flaming Crossbow: Crossbow, but setting fire to enemies
+	Cooldown: 1 Second
+
+Automatic Sentry Crossbow: Normal crossbow, but reloads very fast
+	Cooldown: .10 Seconds
+
+Poison Sword: A sword covered in Cockatrice Poison
+	Damage = 6
+	Effect = Poison
+
+Ambrosium Sword: Can be right clicked to ignite, making it be able to cause fire damage, but that makes it break faster.
+	Damage = 4
+	Effect = Fire
+
+	Recipe: A= Ambrosium, S= Stick
+	XAX
+	XAX
+	XSX
+
+Arkenium Rails: Rails made from arkenium, the quicksoil one works like powered rails
+	Arkenium Rails Recipe: A= Arkenium, S= Stick
+	AXA
+	ASA
+	AXA
+
+	Quicksoil Covered Rails: A= Arkenium, S= Stick, Q= Quicksoil
+	ASA
+	AQA
+	ASA
+
+Arkenium Minecart: A minecart, but made of arkenium
+	Recipe: A= Arkenium
+	XXX
+	AXA
+	AAA
+
+Skyroot Boats: Boats, but skyroot (shouldn't be top priority atm)
+	Recipe: S= Skyroot, R= Skyroot Shovel
+	XXX
+	SRS
+	SSS
+
+Zanite Cleaver: Fast, does extra damage, crafted with 1 extra zanite
+	Damage = 7
+
+	Recipe = Z= Zanite, S= Stick
+	ZZX
+	XZX
+	XSX
+
+Yule Sword: 3x3 Slowness effect to all mobs around you.
+	Damage = 6
+
+	Dungeon Loot/Irradiated Item Loot
+
+Skyfibre Scarf: Doubles drops
+	Neckwear
+	Common
+
+	Dungeon Loot/Irradiated Item Loot
+
+Rune Scarf: Extra jump, with gravitite dynamo it allows 3 jumps
+	Neckwear
+	Mythic
+
+	Dungeon Loot/Irradiated Item Loot
+
+Beetle Necklace: Allows shifting on quicksoil edges
+	Neckwear
+	Rare
+
+	Dungeon Loot/Irradiated Item Loot	
+
+Swet Tools: half durability of skyroot, mining level of skyroot, can be eaten to take away 10 durability, fills hunger max
+	Recipe is same as tools but everything is swet jelly
+	Damage = 3
+
+Quicksoil Vial: Boosts tool/weapon cooldown
+	Charm
+	Rare
+
+	Dungeon Loot/Irradiated Item Loot
+
+Burstblossom Bloom: Has a 5% chance to regen health when low on health
+	Charm
+	Epic
+
+	Dungeon Loot/Irradiated Item Loot
+
+Candied Wyndberry: Food item
+	Hunger Filled: 6
+
+	Dungeon Loot
