@@ -7,6 +7,7 @@ import net.minecraft.item.Item;
 
 import com.SomethingBasic.aetheriiplus.AetherIIPlus;
 import com.SomethingBasic.aetheriiplus.common.CommonProxy;
+import com.SomethingBasic.aetheriiplus.common.items.Items;
 
 /**
  * Use this to add stuff that only the client should have, such as renderers.
@@ -28,7 +29,10 @@ public class ClientProxy extends CommonProxy
     @Override
     public void init()
     {
-        //registerItemRenderer() should happen HERE!
+        for(Item item : Items.getItems())
+        {
+        	registerRenderer(item);
+        }
     }
     
     /**
@@ -42,7 +46,7 @@ public class ClientProxy extends CommonProxy
     
     /**
      * This method registers an item/block renderer.
-     * If you call this in AetherIIPlus.java I will kill you.
+     * If you call this in anywhere except ClientProxy, I will find you, and I will kill you.
      * 
      * @param object The item/block you wish to register the model for.
      */
@@ -52,7 +56,7 @@ public class ClientProxy extends CommonProxy
     	{
     		Item item = (Item)object;
     		
-    		AetherIIPlus.INSTANCE.getLogger().info("Registering renderer for ITEM " + item.getUnlocalizedName().substring(5));
+    		AetherIIPlus.INSTANCE.getLogger().info("Registering renderer for ITEM " + item.getRegistryName());
     		
             Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     	}
@@ -60,7 +64,7 @@ public class ClientProxy extends CommonProxy
     	{
     		Block block = (Block)object;
     		
-    		AetherIIPlus.INSTANCE.getLogger().info("Registering renderer for BLOCK " + block.getUnlocalizedName().substring(5));
+    		AetherIIPlus.INSTANCE.getLogger().info("Registering renderer for BLOCK " + block.getRegistryName());
     		
             Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
     	}
