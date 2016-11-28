@@ -12,6 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.SomethingBasic.aetheriiplus.common.CommonProxy;
+import com.SomethingBasic.aetheriiplus.common.blocks.Blocks;
 import com.SomethingBasic.aetheriiplus.common.items.Items;
 
 @Mod(name = AetherIIPlus.NAME, version = AetherIIPlus.VERSION, modid = AetherIIPlus.MOD_ID)
@@ -54,6 +55,7 @@ public class AetherIIPlus
 	
 		logger.info("Loading Aether II+ content...");
 		Items.init();
+		Blocks.init();
 		
 		logger.info("Initiating Aether II+ proxy initialization...");
 		proxy.init();

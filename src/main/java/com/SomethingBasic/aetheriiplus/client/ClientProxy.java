@@ -1,5 +1,8 @@
 package com.SomethingBasic.aetheriiplus.client;
 
+import java.util.Iterator;
+import java.util.Map.Entry;
+
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -7,6 +10,7 @@ import net.minecraft.item.Item;
 
 import com.SomethingBasic.aetheriiplus.AetherIIPlus;
 import com.SomethingBasic.aetheriiplus.common.CommonProxy;
+import com.SomethingBasic.aetheriiplus.common.blocks.Blocks;
 import com.SomethingBasic.aetheriiplus.common.items.Items;
 
 /**
@@ -33,6 +37,17 @@ public class ClientProxy extends CommonProxy
         {
         	registerRenderer(item);
         }
+        
+        Iterator iterator = Blocks.getBlocks().entrySet().iterator();
+    	
+    	while(iterator.hasNext())
+    	{
+            Entry pair = (Entry)iterator.next();
+          
+            Block block = (Block)pair.getKey();
+            
+            registerRenderer(block);
+    	}
     }
     
     /**
