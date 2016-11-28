@@ -12,18 +12,19 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.SomethingBasic.aetheriiplus.common.CommonProxy;
+import com.SomethingBasic.aetheriiplus.common.items.Items;
 
-@Mod(name = AetherIIPlus.NAME, version = AetherIIPlus.VERSION, modid = AetherIIPlus.MODID)
+@Mod(name = AetherIIPlus.NAME, version = AetherIIPlus.VERSION, modid = AetherIIPlus.MOD_ID)
 public class AetherIIPlus 
 {
-	@Instance(AetherIIPlus.MODID)
+	@Instance(AetherIIPlus.MOD_ID)
 	public static AetherIIPlus INSTANCE;
 	
-	@SidedProxy(clientSide = "com.SomethingBasic.aetheriiplus.client.ClientProxy", serverSide = "com.SomethingBasic.aetheriiplus.common.CommonProxy")
+	@SidedProxy(clientSide = AetherIIPlus.CLIENT_PROXY, serverSide = AetherIIPlus.SERVER_PROXY)
 	public static CommonProxy proxy;
 	
 	/**Don't touch this unless you feel like changing the name, version or modid. I think that defeats the purpose of this message though.**/
-	public static final String NAME = "Aether II+", VERSION = "Unidentified", MODID = "aetheriiplus";
+	public static final String NAME = "Aether II+", VERSION = "Unidentified", MOD_ID = "aetheriiplus", CLIENT_PROXY = "com.SomethingBasic.aetheriiplus.client.ClientProxy", SERVER_PROXY = "com.SomethingBasic.aetheriiplus.common.CommonProxy";
 	
 	private Logger logger = LogManager.getLogger("Aether II+");
 	
@@ -35,9 +36,9 @@ public class AetherIIPlus
 	 */
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		logger.info("FML pre-initialization initiated.");
+		logger.info("Initiating Aether II+ pre-initialization...");
 		
-		logger.info("Initiating proxy pre-initialization...");
+		logger.info("Initiating Aether II+ proxy pre-initialization...");
 		proxy.preInit();
 	}
 	
@@ -49,9 +50,12 @@ public class AetherIIPlus
 	 */
 	public void init(FMLInitializationEvent event)
 	{
-		logger.info("FML initialization initiated.");
+		logger.info("Initiating Aether II+ initialization...");
+	
+		logger.info("Loading Aether II+ content...");
+		Items.init();
 		
-		logger.info("Initiating proxy initialization...");
+		logger.info("Initiating Aether II+ proxy initialization...");
 		proxy.init();
 	}
 	
@@ -63,9 +67,9 @@ public class AetherIIPlus
 	 */
 	public void postInit(FMLPostInitializationEvent event)
 	{
-		logger.info("FML post-initialization initiated.");
+		logger.info("Initiating Aether II+ post-initialization...");		
 		
-		logger.info("Initiating proxy post-initialization...");
+		logger.info("Initiating Aether II+ proxy post-initialization...");
 		proxy.postInit();
 		
 		logger.info("Aether II+ initialization complete.");
