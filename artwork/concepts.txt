@@ -235,3 +235,11 @@ Candied Wyndberry: Food item
 	Hunger Filled: 6
 
 	Dungeon Loot
+
+Jelly Pops: Food item
+	Hunger Filled: 5
+	
+	Recipe: S= Stick, J= Swet Jelly
+	XJX
+	XSX
+	XXX
